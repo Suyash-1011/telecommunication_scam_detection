@@ -1,10 +1,8 @@
+# src/03_feature_extraction.py
 import librosa
 import numpy as np
 import pandas as pd
 from pathlib import Path
-from sklearn.model_selection import train_test_split
-import sys
-sys.path.insert(0, str(Path(__file__).parent.parent))
 from config import (AUGMENTED_DIR, PHISHING_DIR, LEGITIMATE_DIR, 
                     PROCESSED_DIR, SAMPLE_RATE, N_MFCC)
 from src.utils import (print_section, print_subsection, get_audio_files, 
@@ -88,166 +86,120 @@ class AudioFeatureExtractor:
         }
     
     def extract_features_from_file(self, filepath):
-        
+        """Extract 46 features from audio file to match trained model"""
         try:
             # Load audio
             y, sr = librosa.load(filepath, sr=self.sr)
             
             features = {}
             
-            # MFCC features - get MEAN of each coefficient
+            # ==========================================
+            # MFCC Features (13 features)
+            # ==========================================
             mfcc = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=self.n_mfcc)
+            for i in range(self.n_mfcc):
+                features[f'mfcc_{i}'] = float(np.mean(mfcc[i]))
             
-            # ✅ IMPORTANT: Take mean across time axis to get scalars
-            for i, mfcc_coef in enumerate(mfcc):
-                features[f'mfcc_{i}'] = float(np.mean(mfcc_coef))  # ✅ Scalar value
-            
-            # Spectral features
+            # ==========================================
+            # Spectral Features (4 features)
+            # ==========================================
             spectral_centroids = librosa.feature.spectral_centroid(y=y, sr=sr)
-            features['spectral_centroid'] = float(np.mean(spectral_centroids))  # ✅ Scalar
+            features['spectral_centroid'] = float(np.mean(spectral_centroids))
             
             spectral_rolloff = librosa.feature.spectral_rolloff(y=y, sr=sr)
-            features['spectral_rolloff'] = float(np.mean(spectral_rolloff))  # ✅ Scalar
+            features['spectral_rolloff'] = float(np.mean(spectral_rolloff))
             
-            # Zero crossing rate
+            spectral_bandwidth = librosa.feature.spectral_bandwidth(y=y, sr=sr)
+            features['spectral_bandwidth'] = float(np.mean(spectral_bandwidth))
+            
+            spectral_contrast = librosa.feature.spectral_contrast(y=y, sr=sr)
+            features['spectral_contrast'] = float(np.mean(spectral_contrast))
+            
+            # ==========================================
+            # Energy Features (3 features)
+            # ==========================================
             zcr = librosa.feature.zero_crossing_rate(y)
-            features['zero_crossing_rate'] = float(np.mean(zcr))  # ✅ Scalar
+            features['zero_crossing_rate'] = float(np.mean(zcr))
             
-            # Tempo
+            rms = librosa.feature.rms(y=y)
+            features['rms_energy'] = float(np.mean(rms))
+            
+            energy = np.sum(y**2)
+            features['energy'] = float(energy / len(y))
+            
+            # ==========================================
+            # Rhythm Features (1 feature)
+            # ==========================================
             tempo, _ = librosa.beat.beat_track(y=y, sr=sr)
-            features['tempo'] = float(tempo)  # ✅ Scalar
+            features['tempo'] = float(tempo)
             
-            # Chroma features
+            # ==========================================
+            # Chroma Features (12 features)
+            # ==========================================
             chroma = librosa.feature.chroma_stft(y=y, sr=sr)
             for i in range(12):
-                features[f'chroma_{i}'] = float(np.mean(chroma[i]))  # ✅ Scalar
+                features[f'chroma_{i}'] = float(np.mean(chroma[i]))
             
-            # Mel spectrogram
+            # ==========================================
+            # Mel Spectrogram (10 features)
+            # ✅ CRITICAL FIX: Use mel_db.shape not mel_db.shape
+            # ==========================================
             mel = librosa.feature.melspectrogram(y=y, sr=sr)
             mel_db = librosa.power_to_db(mel, ref=np.max)
-            for i in range(min(10, mel_db.shape[0])):
-                features[f'mel_{i}'] = float(np.mean(mel_db[i]))  # ✅ Scalar
             
-            # Verify all values are scalars
+            # ✅ THIS IS THE CRITICAL LINE - USE shape
+            for i in range(min(10, mel_db.shape[0])):
+                features[f'mel_{i}'] = float(np.mean(mel_db[i]))
+            
+            # ==========================================
+            # Onset Strength Features (3 features)
+            # ==========================================
+            onset_env = librosa.onset.onset_strength(y=y, sr=sr)
+            features['onset_strength_mean'] = float(np.mean(onset_env))
+            features['onset_strength_std'] = float(np.std(onset_env))
+            features['onset_strength_max'] = float(np.max(onset_env))
+            
+            print(f"✅ Extracted {len(features)} scalar features")
+            
+            # Verify feature count
+            if len(features) != 46:
+                print(f"⚠️  WARNING: Expected 46 features, got {len(features)}")
+                print(f"   Feature names: {list(features.keys())}")
+            
+            # Verify all are scalars
             for key, value in features.items():
                 if isinstance(value, (list, np.ndarray)):
-                    logger.error(f"Feature '{key}' is not a scalar: {type(value)}")
+                    print(f"❌ ERROR: Feature '{key}' is not scalar: {type(value)}")
                     return None
             
             return features
             
         except Exception as e:
-            logger.error(f"Error extracting features: {e}")
+            print(f"❌ Error extracting features: {e}")
+            import traceback
+            traceback.print_exc()
             return None
 
     def extract_all_features(self, use_augmented=True):
-        """
-        Extract features from entire dataset with PROPER train-test split
-        ✅ FIXED: Now splits ORIGINAL files first, then augments only training data
-        """
-        print_subsection("Extracting Features with Proper Train-Test Split")
+        """Extract features from entire dataset"""
+        print_subsection("Extracting Features")
         
-        if not use_augmented:
-            # Original behavior for non-augmented case
-            return self._extract_without_augmentation()
+        if use_augmented:
+            source_dir = AUGMENTED_DIR
+            label_name = "augmented_label"
+        else:
+            source_dir = None
         
-        # ✅ FIXED: Get ORIGINAL files only
-        phishing_files = get_audio_files(PHISHING_DIR)
-        legitimate_files = get_audio_files(LEGITIMATE_DIR)
-        
-        logger.info(f"Found {len(phishing_files)} original phishing files")
-        logger.info(f"Found {len(legitimate_files)} original legitimate files")
-        
-        # Create file-label pairs
-        phishing_pairs = [(f, 1) for f in phishing_files]
-        legitimate_pairs = [(f, 0) for f in legitimate_files]
-        all_pairs = phishing_pairs + legitimate_pairs
-        
-        files, labels = zip(*all_pairs)
-        
-        # ✅ FIXED: Split ORIGINAL files FIRST (before augmentation)
-        train_files, test_files, train_labels, test_labels = train_test_split(
-            files, labels, test_size=0.2, random_state=42, stratify=labels
-        )
-        
-        logger.info(f"Train split: {len(train_files)} files, Test split: {len(test_files)} files")
-        
-        # ✅ Extract features from TRAINING files (with augmentation)
-        X_train = []
-        y_train = []
-        filenames_train = []
-        
-        print(f"\nExtracting training features (with augmentation)...")
-        progress = ProgressBar(len(train_files), 'Training:')
-        
-        for file, label in zip(train_files, train_labels):
-            # Get augmented versions for this training file
-            base_name = Path(file).stem
-            label_name = "phishing" if label == 1 else "legitimate"
-            aug_pattern = f"{label_name}_{base_name}_*.wav"
-            aug_files = list(AUGMENTED_DIR.glob(aug_pattern))
-            
-            if not aug_files:
-                logger.warning(f"No augmented files found for {file}. Using original.")
-                # Fall back to original if no augmented files
-                features = self.extract_features_from_file(file)
-                if features:
-                    X_train.append(features)
-                    y_train.append(label)
-                    filenames_train.append(Path(file).name)
-            else:
-                # Use augmented versions
-                for aug_file in aug_files:
-                    features = self.extract_features_from_file(aug_file)
-                    if features:
-                        X_train.append(features)
-                        y_train.append(label)
-                        filenames_train.append(aug_file.name)
-            
-            progress.update()
-        progress.finish()
-        
-        # ✅ Extract features from TEST files (NO augmentation, original only)
-        X_test = []
-        y_test = []
-        filenames_test = []
-        
-        print(f"\nExtracting test features (original files only, no augmentation)...")
-        progress = ProgressBar(len(test_files), 'Test:')
-        
-        for file, label in zip(test_files, test_labels):
-            # Use ORIGINAL file only for test set
-            features = self.extract_features_from_file(file)
-            if features:
-                X_test.append(features)
-                y_test.append(label)
-                filenames_test.append(Path(file).name)
-            progress.update()
-        progress.finish()
-        
-        # Convert to DataFrames
-        train_df = pd.DataFrame(X_train)
-        train_df['label'] = y_train
-        train_df['filename'] = filenames_train
-        
-        test_df = pd.DataFrame(X_test)
-        test_df['label'] = y_test
-        test_df['filename'] = filenames_test
-        
-        logger.info(f"Training samples (with augmentation): {len(train_df)}")
-        logger.info(f"Test samples (original only): {len(test_df)}")
-        logger.info(f"Total features: {len(train_df.columns) - 2}")
-        
-        return train_df, test_df
-    
-    def _extract_without_augmentation(self):
-        """Original extraction without augmentation"""
         X = []
         y = []
         filenames = []
         
         # Phishing samples
-        phishing_files = get_audio_files(PHISHING_DIR)
+        phishing_dirs = [AUGMENTED_DIR / "phishing*"] if use_augmented else [PHISHING_DIR]
+        if use_augmented:
+            phishing_files = [f for f in AUGMENTED_DIR.glob("phishing*") if f.is_file()]
+        else:
+            phishing_files = get_audio_files(PHISHING_DIR)
         
         progress = ProgressBar(len(phishing_files), 'Extracting phishing:')
         for file in phishing_files:
@@ -260,7 +212,10 @@ class AudioFeatureExtractor:
         progress.finish()
         
         # Legitimate samples
-        legitimate_files = get_audio_files(LEGITIMATE_DIR)
+        if use_augmented:
+            legitimate_files = [f for f in AUGMENTED_DIR.glob("legitimate*") if f.is_file()]
+        else:
+            legitimate_files = get_audio_files(LEGITIMATE_DIR)
         
         progress = ProgressBar(len(legitimate_files), 'Extracting legitimate:')
         for file in legitimate_files:
@@ -278,31 +233,28 @@ class AudioFeatureExtractor:
         df['filename'] = filenames
         
         logger.info(f"Extracted features from {len(df)} samples")
+        logger.info(f"Total features: {len(df.columns) - 2}")
         
-        return df, None  # Return None for test_df in non-augmented case
+        return df
 
 def run_feature_extraction():
     """Run complete feature extraction pipeline"""
     print_section("FEATURE EXTRACTION PIPELINE")
+    
     extractor = AudioFeatureExtractor(sr=SAMPLE_RATE, n_mfcc=N_MFCC)
-    train_df, test_df = extractor.extract_all_features(use_augmented=True)
+    features_df = extractor.extract_all_features(use_augmented=True)
     
     print_subsection("Feature Extraction Summary")
-    print(f"Training samples (with augmentation): {len(train_df)}")
-    print(f"  - Phishing: {(train_df['label'] == 1).sum()}")
-    print(f"  - Legitimate: {(train_df['label'] == 0).sum()}")
-    print(f"Test samples (original only): {len(test_df)}")
-    print(f"  - Phishing: {(test_df['label'] == 1).sum()}")
-    print(f"  - Legitimate: {(test_df['label'] == 0).sum()}")
-    print(f"Feature dimensions: {len(train_df.columns) - 2}")
+    print(f"Total samples: {len(features_df)}")
+    print(f"Feature dimensions: {len(features_df.columns) - 2}")
+    print(f"Phishing samples: {(features_df['label'] == 1).sum()}")
+    print(f"Legitimate samples: {(features_df['label'] == 0).sum()}")
     
-    train_output_path = PROCESSED_DIR / "train_features.csv"
-    test_output_path = PROCESSED_DIR / "test_features.csv"
+    # Save features
+    output_path = PROCESSED_DIR / "features_augmented.csv"
+    save_dataframe(features_df, output_path, "augmented features")
     
-    save_dataframe(train_df, train_output_path, "training features")
-    save_dataframe(test_df, test_output_path, "test features")
-    
-    return train_df, test_df
+    return features_df
 
 if __name__ == "__main__":
     run_feature_extraction()

@@ -602,76 +602,74 @@
 2025-11-07 11:09:10,992 - INFO - [33mPress CTRL+C to quit[0m
 2025-11-07 11:09:13,786 - INFO - 127.0.0.1 - - [07/Nov/2025 11:09:13] "GET / HTTP/1.1" 200 -
 2025-11-07 11:09:18,922 - INFO - 127.0.0.1 - - [07/Nov/2025 11:09:18] "[35m[1mPOST /api/predict HTTP/1.1[0m" 500 -
-2025-11-14 10:06:33,621 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2025-11-07 11:14:26,020 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-07 11:14:26,063 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5001
- * Running on http://192.168.2.195:5001
-2025-11-14 10:06:33,621 - INFO - [33mPress CTRL+C to quit[0m
-2025-11-14 10:12:11,597 - INFO - Dataset exploration complete: 40 phishing, 40 legitimate
-2025-11-14 10:13:06,741 - INFO - Augmentation complete!
-2025-11-14 10:13:06,741 - INFO - Original files: 80
-2025-11-14 10:13:06,741 - INFO - Augmented files generated: 400
-2025-11-14 10:13:06,741 - INFO - Output directory: /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/data/augmented
-2025-11-14 10:14:00,641 - ERROR - Train/test features not found. Please run feature extraction first.
-2025-11-14 10:14:51,868 - INFO - Found 40 original phishing files
-2025-11-14 10:14:51,868 - INFO - Found 40 original legitimate files
-2025-11-14 10:14:51,870 - INFO - Train split: 64 files, Test split: 16 files
-2025-11-14 10:15:11,170 - INFO - Training samples (with augmentation): 320
-2025-11-14 10:15:11,170 - INFO - Test samples (original only): 16
-2025-11-14 10:15:11,170 - INFO - Total features: 39
-2025-11-14 10:15:11,182 - INFO - Saved training features to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/data/processed/train_features.csv
-2025-11-14 10:15:11,182 - INFO - Shape: (320, 41)
-2025-11-14 10:15:11,186 - INFO - Saved test features to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/data/processed/test_features.csv
-2025-11-14 10:15:11,186 - INFO - Shape: (16, 41)
-2025-11-14 10:15:22,329 - WARNING - At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
-2025-11-14 10:15:22,343 - WARNING - There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
-2025-11-14 10:15:22,352 - INFO - DNN model created
-2025-11-14 10:15:22,353 - INFO - Features scaled: mean=-0.0000, std=1.0000
-2025-11-14 10:15:42,120 - INFO - Training complete. Final validation accuracy: 0.3906
-2025-11-14 10:15:42,416 - INFO - DNN Test Accuracy: 0.3125
-2025-11-14 10:15:42,467 - INFO - DNN model saved to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/models/dnn_model.h5
-2025-11-14 10:15:42,468 - INFO - DNN scaler saved to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/models/dnn_scaler.pkl
-2025-11-14 10:16:43,133 - INFO - XGBoost model initialized
-2025-11-14 10:16:43,224 - INFO - XGBoost model trained
-2025-11-14 10:16:43,565 - INFO - Cross-validation complete: 0.6660
-2025-11-14 10:16:43,567 - INFO - XGBoost Test Accuracy: 0.5000
-2025-11-14 10:16:43,570 - INFO - XGBoost model saved to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/models/xgboost_model.json
-2025-11-14 10:24:10,875 - INFO - DNN model loaded
-2025-11-14 10:24:10,888 - INFO - XGBoost model loaded
-2025-11-14 10:24:11,451 - INFO - Saved evaluation metrics to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/results/metrics.csv
-2025-11-14 10:24:11,451 - INFO - Shape: (3, 5)
-2025-11-14 10:24:12,411 - INFO - ROC curves saved
-2025-11-14 10:24:12,726 - INFO - Confusion matrices saved
-2025-11-14 10:29:20,450 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.0.8.216:5001
+2025-11-07 11:14:26,063 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 11:14:47,293 - INFO - 127.0.0.1 - - [07/Nov/2025 11:14:47] "GET / HTTP/1.1" 200 -
+2025-11-07 11:15:00,421 - INFO - 127.0.0.1 - - [07/Nov/2025 11:15:00] "[31m[1mPOST /api/predict HTTP/1.1[0m" 400 -
+2025-11-07 11:18:38,988 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-07 11:18:39,054 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5001
- * Running on http://192.168.2.195:5001
-2025-11-14 10:29:20,451 - INFO - [33mPress CTRL+C to quit[0m
-2025-11-14 10:29:28,250 - INFO - 127.0.0.1 - - [14/Nov/2025 10:29:28] "GET / HTTP/1.1" 200 -
-2025-11-14 10:29:28,736 - INFO - 127.0.0.1 - - [14/Nov/2025 10:29:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2025-11-14 11:58:39,857 - INFO - Random Forest model initialized
-2025-11-14 11:58:40,546 - INFO - Random Forest model trained
-2025-11-14 11:58:41,359 - INFO - Cross-validation complete: 0.6950
-2025-11-14 11:58:41,389 - INFO - Random Forest Test Accuracy: 0.5625
-2025-11-14 11:58:41,393 - INFO - Random Forest model saved to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/models/random_forest.pkl
-2025-11-14 12:01:31,360 - INFO - LightGBM model initialized
-2025-11-14 12:01:31,474 - INFO - LightGBM model trained
-2025-11-14 12:01:31,951 - INFO - Cross-validation complete: 0.6803
-2025-11-14 12:01:31,954 - INFO - LightGBM Test Accuracy: 0.5625
-2025-11-14 12:01:31,955 - INFO - LightGBM model saved to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/models/lightgbm.pkl
-2025-11-14 12:02:22,060 - INFO - DNN model loaded
-2025-11-14 12:02:22,074 - INFO - XGBoost model loaded
-2025-11-14 12:02:22,327 - INFO - Random Forest model loaded
-2025-11-14 12:02:22,358 - INFO - LightGBM model loaded
-2025-11-14 12:02:22,637 - INFO - Saved evaluation metrics to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/results/metrics.csv
-2025-11-14 12:02:22,637 - INFO - Shape: (5, 5)
-2025-11-14 12:02:23,108 - INFO - ROC curves saved
-2025-11-14 12:02:23,798 - INFO - Confusion matrices saved
-2025-11-14 12:04:17,461 - INFO - DNN model loaded
-2025-11-14 12:04:17,472 - INFO - XGBoost model loaded
-2025-11-14 12:04:17,728 - INFO - Random Forest model loaded
-2025-11-14 12:04:17,757 - INFO - LightGBM model loaded
-2025-11-14 12:04:18,038 - INFO - Saved evaluation metrics to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/results/metrics.csv
-2025-11-14 12:04:18,038 - INFO - Shape: (5, 6)
-2025-11-14 12:04:18,419 - INFO - ROC curves saved
-2025-11-14 12:04:19,106 - INFO - Confusion matrices saved
+ * Running on http://10.0.8.216:5001
+2025-11-07 11:18:39,055 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 11:18:43,350 - INFO - 127.0.0.1 - - [07/Nov/2025 11:18:43] "GET / HTTP/1.1" 200 -
+2025-11-07 11:18:51,628 - INFO - 127.0.0.1 - - [07/Nov/2025 11:18:51] "[35m[1mPOST /api/predict HTTP/1.1[0m" 500 -
+2025-11-07 11:49:54,585 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-07 11:49:54,648 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.8.216:5001
+2025-11-07 11:49:54,648 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 11:49:57,795 - INFO - 127.0.0.1 - - [07/Nov/2025 11:49:57] "GET / HTTP/1.1" 200 -
+2025-11-07 11:50:06,600 - INFO - 127.0.0.1 - - [07/Nov/2025 11:50:06] "[31m[1mPOST /api/predict HTTP/1.1[0m" 400 -
+2025-11-07 11:53:24,032 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-07 11:53:24,103 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.8.216:5001
+2025-11-07 11:53:24,103 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-09 14:34:27,785 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-09 14:34:27,899 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.8.216:5001
+2025-11-09 14:34:27,899 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-09 14:34:36,163 - INFO - 127.0.0.1 - - [09/Nov/2025 14:34:36] "GET / HTTP/1.1" 200 -
+2025-11-09 14:34:44,612 - INFO - 127.0.0.1 - - [09/Nov/2025 14:34:44] "[31m[1mPOST /api/predict HTTP/1.1[0m" 400 -
+2025-11-11 14:27:08,276 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-11 14:27:08,345 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.1.222:5001
+2025-11-11 14:27:08,345 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-11 14:27:12,084 - INFO - 127.0.0.1 - - [11/Nov/2025 14:27:12] "GET / HTTP/1.1" 200 -
+2025-11-11 14:27:20,802 - INFO - 127.0.0.1 - - [11/Nov/2025 14:27:20] "[31m[1mPOST /api/predict HTTP/1.1[0m" 400 -
+2025-11-11 14:29:01,544 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-11 14:29:01,608 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.1.222:5001
+2025-11-11 14:29:01,608 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-11 14:29:09,647 - INFO - 127.0.0.1 - - [11/Nov/2025 14:29:09] "GET / HTTP/1.1" 200 -
+2025-11-11 14:29:18,253 - INFO - 127.0.0.1 - - [11/Nov/2025 14:29:18] "[35m[1mPOST /api/predict HTTP/1.1[0m" 500 -
+2025-11-11 15:12:48,934 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-11 15:12:49,031 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.1.222:5001
+2025-11-11 15:12:49,031 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-11 15:12:52,466 - INFO - 127.0.0.1 - - [11/Nov/2025 15:12:52] "GET / HTTP/1.1" 200 -
+2025-11-11 15:13:00,050 - INFO - 127.0.0.1 - - [11/Nov/2025 15:13:00] "POST /api/predict HTTP/1.1" 200 -
+2025-11-14 16:27:44,993 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-14 16:27:45,116 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.7.115:5001
+2025-11-14 16:27:45,117 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-14 16:27:56,685 - INFO - 10.0.7.115 - - [14/Nov/2025 16:27:56] "GET / HTTP/1.1" 200 -
+2025-11-14 16:27:57,154 - INFO - 10.0.7.115 - - [14/Nov/2025 16:27:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-14 16:28:08,677 - INFO - 10.0.7.115 - - [14/Nov/2025 16:28:08] "POST /api/predict HTTP/1.1" 200 -
