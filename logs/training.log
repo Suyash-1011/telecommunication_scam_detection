@@ -1,0 +1,677 @@
+2025-11-05 11:50:14,945 - INFO - Dataset exploration complete: 40 phishing, 40 legitimate
+2025-11-05 11:51:08,361 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_1_original.wav': System error.
+2025-11-05 11:51:08,362 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_1_time_stretch_slow.wav': System error.
+2025-11-05 11:51:08,362 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_1_time_stretch_fast.wav': System error.
+2025-11-05 11:51:08,362 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_1_pitch_up.wav': System error.
+2025-11-05 11:51:08,362 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_1_pitch_down.wav': System error.
+2025-11-05 11:51:08,442 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_10_original.wav': System error.
+2025-11-05 11:51:08,442 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_10_time_stretch_slow.wav': System error.
+2025-11-05 11:51:08,443 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_10_time_stretch_fast.wav': System error.
+2025-11-05 11:51:08,443 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_10_pitch_up.wav': System error.
+2025-11-05 11:51:08,443 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_10_pitch_down.wav': System error.
+2025-11-05 11:51:08,526 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_11_original.wav': System error.
+2025-11-05 11:51:08,526 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_11_time_stretch_slow.wav': System error.
+2025-11-05 11:51:08,526 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_11_time_stretch_fast.wav': System error.
+2025-11-05 11:51:08,526 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_11_pitch_up.wav': System error.
+2025-11-05 11:51:08,526 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_11_pitch_down.wav': System error.
+2025-11-05 11:51:08,596 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_12_original.wav': System error.
+2025-11-05 11:51:08,596 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_12_time_stretch_slow.wav': System error.
+2025-11-05 11:51:08,596 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_12_time_stretch_fast.wav': System error.
+2025-11-05 11:51:08,596 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_12_pitch_up.wav': System error.
+2025-11-05 11:51:08,596 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_12_pitch_down.wav': System error.
+2025-11-05 11:51:08,665 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_13_original.wav': System error.
+2025-11-05 11:51:08,665 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_13_time_stretch_slow.wav': System error.
+2025-11-05 11:51:08,665 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_13_time_stretch_fast.wav': System error.
+2025-11-05 11:51:08,665 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_13_pitch_up.wav': System error.
+2025-11-05 11:51:08,665 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_13_pitch_down.wav': System error.
+2025-11-05 11:51:08,737 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_14_original.wav': System error.
+2025-11-05 11:51:08,738 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_14_time_stretch_slow.wav': System error.
+2025-11-05 11:51:08,738 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_14_time_stretch_fast.wav': System error.
+2025-11-05 11:51:08,738 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_14_pitch_up.wav': System error.
+2025-11-05 11:51:08,738 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_14_pitch_down.wav': System error.
+2025-11-05 11:51:08,815 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_15_original.wav': System error.
+2025-11-05 11:51:08,816 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_15_time_stretch_slow.wav': System error.
+2025-11-05 11:51:08,816 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_15_time_stretch_fast.wav': System error.
+2025-11-05 11:51:08,816 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_15_pitch_up.wav': System error.
+2025-11-05 11:51:08,816 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_15_pitch_down.wav': System error.
+2025-11-05 11:51:08,888 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_16_original.wav': System error.
+2025-11-05 11:51:08,888 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_16_time_stretch_slow.wav': System error.
+2025-11-05 11:51:08,888 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_16_time_stretch_fast.wav': System error.
+2025-11-05 11:51:08,888 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_16_pitch_up.wav': System error.
+2025-11-05 11:51:08,888 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_16_pitch_down.wav': System error.
+2025-11-05 11:51:08,957 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_17_original.wav': System error.
+2025-11-05 11:51:08,957 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_17_time_stretch_slow.wav': System error.
+2025-11-05 11:51:08,957 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_17_time_stretch_fast.wav': System error.
+2025-11-05 11:51:08,957 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_17_pitch_up.wav': System error.
+2025-11-05 11:51:08,957 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_17_pitch_down.wav': System error.
+2025-11-05 11:51:09,035 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_18_original.wav': System error.
+2025-11-05 11:51:09,035 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_18_time_stretch_slow.wav': System error.
+2025-11-05 11:51:09,035 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_18_time_stretch_fast.wav': System error.
+2025-11-05 11:51:09,035 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_18_pitch_up.wav': System error.
+2025-11-05 11:51:09,035 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_18_pitch_down.wav': System error.
+2025-11-05 11:51:09,116 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_19_original.wav': System error.
+2025-11-05 11:51:09,116 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_19_time_stretch_slow.wav': System error.
+2025-11-05 11:51:09,116 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_19_time_stretch_fast.wav': System error.
+2025-11-05 11:51:09,116 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_19_pitch_up.wav': System error.
+2025-11-05 11:51:09,116 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_19_pitch_down.wav': System error.
+2025-11-05 11:51:09,205 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_2_original.wav': System error.
+2025-11-05 11:51:09,206 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_2_time_stretch_slow.wav': System error.
+2025-11-05 11:51:09,206 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_2_time_stretch_fast.wav': System error.
+2025-11-05 11:51:09,206 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_2_pitch_up.wav': System error.
+2025-11-05 11:51:09,206 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_2_pitch_down.wav': System error.
+2025-11-05 11:51:09,263 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_20_original.wav': System error.
+2025-11-05 11:51:09,264 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_20_time_stretch_slow.wav': System error.
+2025-11-05 11:51:09,264 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_20_time_stretch_fast.wav': System error.
+2025-11-05 11:51:09,264 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_20_pitch_up.wav': System error.
+2025-11-05 11:51:09,264 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_20_pitch_down.wav': System error.
+2025-11-05 11:51:09,341 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_21_original.wav': System error.
+2025-11-05 11:51:09,341 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_21_time_stretch_slow.wav': System error.
+2025-11-05 11:51:09,341 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_21_time_stretch_fast.wav': System error.
+2025-11-05 11:51:09,341 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_21_pitch_up.wav': System error.
+2025-11-05 11:51:09,341 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_21_pitch_down.wav': System error.
+2025-11-05 11:51:09,413 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_22_original.wav': System error.
+2025-11-05 11:51:09,413 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_22_time_stretch_slow.wav': System error.
+2025-11-05 11:51:09,413 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_22_time_stretch_fast.wav': System error.
+2025-11-05 11:51:09,413 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_22_pitch_up.wav': System error.
+2025-11-05 11:51:09,413 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_22_pitch_down.wav': System error.
+2025-11-05 11:51:09,509 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_23_original.wav': System error.
+2025-11-05 11:51:09,509 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_23_time_stretch_slow.wav': System error.
+2025-11-05 11:51:09,510 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_23_time_stretch_fast.wav': System error.
+2025-11-05 11:51:09,510 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_23_pitch_up.wav': System error.
+2025-11-05 11:51:09,510 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_23_pitch_down.wav': System error.
+2025-11-05 11:51:09,574 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_24_original.wav': System error.
+2025-11-05 11:51:09,574 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_24_time_stretch_slow.wav': System error.
+2025-11-05 11:51:09,574 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_24_time_stretch_fast.wav': System error.
+2025-11-05 11:51:09,574 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_24_pitch_up.wav': System error.
+2025-11-05 11:51:09,574 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_24_pitch_down.wav': System error.
+2025-11-05 11:51:09,632 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_25_original.wav': System error.
+2025-11-05 11:51:09,632 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_25_time_stretch_slow.wav': System error.
+2025-11-05 11:51:09,633 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_25_time_stretch_fast.wav': System error.
+2025-11-05 11:51:09,633 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_25_pitch_up.wav': System error.
+2025-11-05 11:51:09,633 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_25_pitch_down.wav': System error.
+2025-11-05 11:51:09,688 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_26_original.wav': System error.
+2025-11-05 11:51:09,688 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_26_time_stretch_slow.wav': System error.
+2025-11-05 11:51:09,689 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_26_time_stretch_fast.wav': System error.
+2025-11-05 11:51:09,689 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_26_pitch_up.wav': System error.
+2025-11-05 11:51:09,689 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_26_pitch_down.wav': System error.
+2025-11-05 11:51:09,756 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_27_original.wav': System error.
+2025-11-05 11:51:09,756 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_27_time_stretch_slow.wav': System error.
+2025-11-05 11:51:09,756 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_27_time_stretch_fast.wav': System error.
+2025-11-05 11:51:09,756 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_27_pitch_up.wav': System error.
+2025-11-05 11:51:09,756 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_27_pitch_down.wav': System error.
+2025-11-05 11:51:09,824 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_28_original.wav': System error.
+2025-11-05 11:51:09,824 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_28_time_stretch_slow.wav': System error.
+2025-11-05 11:51:09,824 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_28_time_stretch_fast.wav': System error.
+2025-11-05 11:51:09,824 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_28_pitch_up.wav': System error.
+2025-11-05 11:51:09,824 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_28_pitch_down.wav': System error.
+2025-11-05 11:51:09,895 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_29_original.wav': System error.
+2025-11-05 11:51:09,895 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_29_time_stretch_slow.wav': System error.
+2025-11-05 11:51:09,895 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_29_time_stretch_fast.wav': System error.
+2025-11-05 11:51:09,895 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_29_pitch_up.wav': System error.
+2025-11-05 11:51:09,895 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_29_pitch_down.wav': System error.
+2025-11-05 11:51:09,977 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_3_original.wav': System error.
+2025-11-05 11:51:09,977 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_3_time_stretch_slow.wav': System error.
+2025-11-05 11:51:09,977 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_3_time_stretch_fast.wav': System error.
+2025-11-05 11:51:09,977 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_3_pitch_up.wav': System error.
+2025-11-05 11:51:09,977 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_3_pitch_down.wav': System error.
+2025-11-05 11:51:10,050 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_30_original.wav': System error.
+2025-11-05 11:51:10,050 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_30_time_stretch_slow.wav': System error.
+2025-11-05 11:51:10,050 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_30_time_stretch_fast.wav': System error.
+2025-11-05 11:51:10,050 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_30_pitch_up.wav': System error.
+2025-11-05 11:51:10,050 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_30_pitch_down.wav': System error.
+2025-11-05 11:51:10,116 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_31_original.wav': System error.
+2025-11-05 11:51:10,116 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_31_time_stretch_slow.wav': System error.
+2025-11-05 11:51:10,116 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_31_time_stretch_fast.wav': System error.
+2025-11-05 11:51:10,116 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_31_pitch_up.wav': System error.
+2025-11-05 11:51:10,116 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_31_pitch_down.wav': System error.
+2025-11-05 11:51:10,184 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_32_original.wav': System error.
+2025-11-05 11:51:10,184 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_32_time_stretch_slow.wav': System error.
+2025-11-05 11:51:10,184 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_32_time_stretch_fast.wav': System error.
+2025-11-05 11:51:10,184 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_32_pitch_up.wav': System error.
+2025-11-05 11:51:10,184 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_32_pitch_down.wav': System error.
+2025-11-05 11:51:10,257 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_33_original.wav': System error.
+2025-11-05 11:51:10,257 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_33_time_stretch_slow.wav': System error.
+2025-11-05 11:51:10,257 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_33_time_stretch_fast.wav': System error.
+2025-11-05 11:51:10,257 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_33_pitch_up.wav': System error.
+2025-11-05 11:51:10,257 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_33_pitch_down.wav': System error.
+2025-11-05 11:51:10,323 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_34_original.wav': System error.
+2025-11-05 11:51:10,323 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_34_time_stretch_slow.wav': System error.
+2025-11-05 11:51:10,323 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_34_time_stretch_fast.wav': System error.
+2025-11-05 11:51:10,323 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_34_pitch_up.wav': System error.
+2025-11-05 11:51:10,323 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_34_pitch_down.wav': System error.
+2025-11-05 11:51:10,364 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_35_original.wav': System error.
+2025-11-05 11:51:10,364 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_35_time_stretch_slow.wav': System error.
+2025-11-05 11:51:10,364 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_35_time_stretch_fast.wav': System error.
+2025-11-05 11:51:10,364 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_35_pitch_up.wav': System error.
+2025-11-05 11:51:10,364 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_35_pitch_down.wav': System error.
+2025-11-05 11:51:10,430 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_36_original.wav': System error.
+2025-11-05 11:51:10,431 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_36_time_stretch_slow.wav': System error.
+2025-11-05 11:51:10,431 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_36_time_stretch_fast.wav': System error.
+2025-11-05 11:51:10,431 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_36_pitch_up.wav': System error.
+2025-11-05 11:51:10,431 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_36_pitch_down.wav': System error.
+2025-11-05 11:51:10,491 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_37_original.wav': System error.
+2025-11-05 11:51:10,492 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_37_time_stretch_slow.wav': System error.
+2025-11-05 11:51:10,492 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_37_time_stretch_fast.wav': System error.
+2025-11-05 11:51:10,492 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_37_pitch_up.wav': System error.
+2025-11-05 11:51:10,492 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_37_pitch_down.wav': System error.
+2025-11-05 11:51:10,551 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_38_original.wav': System error.
+2025-11-05 11:51:10,551 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_38_time_stretch_slow.wav': System error.
+2025-11-05 11:51:10,551 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_38_time_stretch_fast.wav': System error.
+2025-11-05 11:51:10,551 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_38_pitch_up.wav': System error.
+2025-11-05 11:51:10,551 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_38_pitch_down.wav': System error.
+2025-11-05 11:51:10,629 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_39_original.wav': System error.
+2025-11-05 11:51:10,629 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_39_time_stretch_slow.wav': System error.
+2025-11-05 11:51:10,629 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_39_time_stretch_fast.wav': System error.
+2025-11-05 11:51:10,629 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_39_pitch_up.wav': System error.
+2025-11-05 11:51:10,629 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_39_pitch_down.wav': System error.
+2025-11-05 11:51:10,702 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_4_original.wav': System error.
+2025-11-05 11:51:10,702 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_4_time_stretch_slow.wav': System error.
+2025-11-05 11:51:10,702 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_4_time_stretch_fast.wav': System error.
+2025-11-05 11:51:10,702 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_4_pitch_up.wav': System error.
+2025-11-05 11:51:10,702 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_4_pitch_down.wav': System error.
+2025-11-05 11:51:10,767 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_40_original.wav': System error.
+2025-11-05 11:51:10,767 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_40_time_stretch_slow.wav': System error.
+2025-11-05 11:51:10,767 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_40_time_stretch_fast.wav': System error.
+2025-11-05 11:51:10,767 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_40_pitch_up.wav': System error.
+2025-11-05 11:51:10,767 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_40_pitch_down.wav': System error.
+2025-11-05 11:51:10,828 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_5_original.wav': System error.
+2025-11-05 11:51:10,829 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_5_time_stretch_slow.wav': System error.
+2025-11-05 11:51:10,829 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_5_time_stretch_fast.wav': System error.
+2025-11-05 11:51:10,829 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_5_pitch_up.wav': System error.
+2025-11-05 11:51:10,829 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_5_pitch_down.wav': System error.
+2025-11-05 11:51:10,892 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_6_original.wav': System error.
+2025-11-05 11:51:10,892 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_6_time_stretch_slow.wav': System error.
+2025-11-05 11:51:10,892 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_6_time_stretch_fast.wav': System error.
+2025-11-05 11:51:10,892 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_6_pitch_up.wav': System error.
+2025-11-05 11:51:10,892 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_6_pitch_down.wav': System error.
+2025-11-05 11:51:10,954 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_7_original.wav': System error.
+2025-11-05 11:51:10,954 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_7_time_stretch_slow.wav': System error.
+2025-11-05 11:51:10,954 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_7_time_stretch_fast.wav': System error.
+2025-11-05 11:51:10,954 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_7_pitch_up.wav': System error.
+2025-11-05 11:51:10,954 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_7_pitch_down.wav': System error.
+2025-11-05 11:51:11,028 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_8_original.wav': System error.
+2025-11-05 11:51:11,028 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_8_time_stretch_slow.wav': System error.
+2025-11-05 11:51:11,028 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_8_time_stretch_fast.wav': System error.
+2025-11-05 11:51:11,028 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_8_pitch_up.wav': System error.
+2025-11-05 11:51:11,028 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_8_pitch_down.wav': System error.
+2025-11-05 11:51:11,096 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_9_original.wav': System error.
+2025-11-05 11:51:11,096 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_9_time_stretch_slow.wav': System error.
+2025-11-05 11:51:11,096 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_9_time_stretch_fast.wav': System error.
+2025-11-05 11:51:11,096 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_9_pitch_up.wav': System error.
+2025-11-05 11:51:11,096 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/phishing_9_pitch_down.wav': System error.
+2025-11-05 11:51:11,171 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_1_original.wav': System error.
+2025-11-05 11:51:11,171 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_1_time_stretch_slow.wav': System error.
+2025-11-05 11:51:11,171 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_1_time_stretch_fast.wav': System error.
+2025-11-05 11:51:11,172 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_1_pitch_up.wav': System error.
+2025-11-05 11:51:11,172 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_1_pitch_down.wav': System error.
+2025-11-05 11:51:11,237 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_10_original.wav': System error.
+2025-11-05 11:51:11,237 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_10_time_stretch_slow.wav': System error.
+2025-11-05 11:51:11,237 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_10_time_stretch_fast.wav': System error.
+2025-11-05 11:51:11,237 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_10_pitch_up.wav': System error.
+2025-11-05 11:51:11,238 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_10_pitch_down.wav': System error.
+2025-11-05 11:51:11,307 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_11_original.wav': System error.
+2025-11-05 11:51:11,307 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_11_time_stretch_slow.wav': System error.
+2025-11-05 11:51:11,307 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_11_time_stretch_fast.wav': System error.
+2025-11-05 11:51:11,307 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_11_pitch_up.wav': System error.
+2025-11-05 11:51:11,307 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_11_pitch_down.wav': System error.
+2025-11-05 11:51:11,369 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_12_original.wav': System error.
+2025-11-05 11:51:11,369 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_12_time_stretch_slow.wav': System error.
+2025-11-05 11:51:11,369 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_12_time_stretch_fast.wav': System error.
+2025-11-05 11:51:11,369 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_12_pitch_up.wav': System error.
+2025-11-05 11:51:11,369 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_12_pitch_down.wav': System error.
+2025-11-05 11:51:11,409 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_13_original.wav': System error.
+2025-11-05 11:51:11,409 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_13_time_stretch_slow.wav': System error.
+2025-11-05 11:51:11,409 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_13_time_stretch_fast.wav': System error.
+2025-11-05 11:51:11,409 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_13_pitch_up.wav': System error.
+2025-11-05 11:51:11,409 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_13_pitch_down.wav': System error.
+2025-11-05 11:51:11,450 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_14_original.wav': System error.
+2025-11-05 11:51:11,450 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_14_time_stretch_slow.wav': System error.
+2025-11-05 11:51:11,450 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_14_time_stretch_fast.wav': System error.
+2025-11-05 11:51:11,450 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_14_pitch_up.wav': System error.
+2025-11-05 11:51:11,450 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_14_pitch_down.wav': System error.
+2025-11-05 11:51:11,510 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_15_original.wav': System error.
+2025-11-05 11:51:11,510 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_15_time_stretch_slow.wav': System error.
+2025-11-05 11:51:11,510 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_15_time_stretch_fast.wav': System error.
+2025-11-05 11:51:11,510 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_15_pitch_up.wav': System error.
+2025-11-05 11:51:11,510 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_15_pitch_down.wav': System error.
+2025-11-05 11:51:11,582 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_16_original.wav': System error.
+2025-11-05 11:51:11,583 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_16_time_stretch_slow.wav': System error.
+2025-11-05 11:51:11,583 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_16_time_stretch_fast.wav': System error.
+2025-11-05 11:51:11,583 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_16_pitch_up.wav': System error.
+2025-11-05 11:51:11,583 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_16_pitch_down.wav': System error.
+2025-11-05 11:51:11,632 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_17_original.wav': System error.
+2025-11-05 11:51:11,632 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_17_time_stretch_slow.wav': System error.
+2025-11-05 11:51:11,632 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_17_time_stretch_fast.wav': System error.
+2025-11-05 11:51:11,632 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_17_pitch_up.wav': System error.
+2025-11-05 11:51:11,632 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_17_pitch_down.wav': System error.
+2025-11-05 11:51:11,706 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_18_original.wav': System error.
+2025-11-05 11:51:11,706 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_18_time_stretch_slow.wav': System error.
+2025-11-05 11:51:11,706 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_18_time_stretch_fast.wav': System error.
+2025-11-05 11:51:11,706 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_18_pitch_up.wav': System error.
+2025-11-05 11:51:11,706 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_18_pitch_down.wav': System error.
+2025-11-05 11:51:11,759 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_19_original.wav': System error.
+2025-11-05 11:51:11,759 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_19_time_stretch_slow.wav': System error.
+2025-11-05 11:51:11,759 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_19_time_stretch_fast.wav': System error.
+2025-11-05 11:51:11,759 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_19_pitch_up.wav': System error.
+2025-11-05 11:51:11,759 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_19_pitch_down.wav': System error.
+2025-11-05 11:51:11,832 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_2_original.wav': System error.
+2025-11-05 11:51:11,832 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_2_time_stretch_slow.wav': System error.
+2025-11-05 11:51:11,832 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_2_time_stretch_fast.wav': System error.
+2025-11-05 11:51:11,832 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_2_pitch_up.wav': System error.
+2025-11-05 11:51:11,832 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_2_pitch_down.wav': System error.
+2025-11-05 11:51:11,875 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_20_original.wav': System error.
+2025-11-05 11:51:11,875 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_20_time_stretch_slow.wav': System error.
+2025-11-05 11:51:11,875 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_20_time_stretch_fast.wav': System error.
+2025-11-05 11:51:11,875 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_20_pitch_up.wav': System error.
+2025-11-05 11:51:11,876 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_20_pitch_down.wav': System error.
+2025-11-05 11:51:11,942 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_21_original.wav': System error.
+2025-11-05 11:51:11,942 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_21_time_stretch_slow.wav': System error.
+2025-11-05 11:51:11,942 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_21_time_stretch_fast.wav': System error.
+2025-11-05 11:51:11,942 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_21_pitch_up.wav': System error.
+2025-11-05 11:51:11,942 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_21_pitch_down.wav': System error.
+2025-11-05 11:51:12,032 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_22_original.wav': System error.
+2025-11-05 11:51:12,032 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_22_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,032 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_22_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,032 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_22_pitch_up.wav': System error.
+2025-11-05 11:51:12,032 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_22_pitch_down.wav': System error.
+2025-11-05 11:51:12,082 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_23_original.wav': System error.
+2025-11-05 11:51:12,082 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_23_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,082 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_23_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,082 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_23_pitch_up.wav': System error.
+2025-11-05 11:51:12,082 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_23_pitch_down.wav': System error.
+2025-11-05 11:51:12,127 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_24_original.wav': System error.
+2025-11-05 11:51:12,127 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_24_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,127 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_24_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,127 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_24_pitch_up.wav': System error.
+2025-11-05 11:51:12,127 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_24_pitch_down.wav': System error.
+2025-11-05 11:51:12,171 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_25_original.wav': System error.
+2025-11-05 11:51:12,172 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_25_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,172 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_25_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,172 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_25_pitch_up.wav': System error.
+2025-11-05 11:51:12,172 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_25_pitch_down.wav': System error.
+2025-11-05 11:51:12,208 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_26_original.wav': System error.
+2025-11-05 11:51:12,208 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_26_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,209 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_26_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,209 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_26_pitch_up.wav': System error.
+2025-11-05 11:51:12,209 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_26_pitch_down.wav': System error.
+2025-11-05 11:51:12,250 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_27_original.wav': System error.
+2025-11-05 11:51:12,250 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_27_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,250 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_27_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,250 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_27_pitch_up.wav': System error.
+2025-11-05 11:51:12,250 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_27_pitch_down.wav': System error.
+2025-11-05 11:51:12,325 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_28_original.wav': System error.
+2025-11-05 11:51:12,325 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_28_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,325 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_28_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,325 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_28_pitch_up.wav': System error.
+2025-11-05 11:51:12,325 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_28_pitch_down.wav': System error.
+2025-11-05 11:51:12,373 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_29_original.wav': System error.
+2025-11-05 11:51:12,373 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_29_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,373 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_29_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,373 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_29_pitch_up.wav': System error.
+2025-11-05 11:51:12,373 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_29_pitch_down.wav': System error.
+2025-11-05 11:51:12,416 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_3_original.wav': System error.
+2025-11-05 11:51:12,416 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_3_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,416 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_3_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,417 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_3_pitch_up.wav': System error.
+2025-11-05 11:51:12,417 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_3_pitch_down.wav': System error.
+2025-11-05 11:51:12,478 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_30_original.wav': System error.
+2025-11-05 11:51:12,478 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_30_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,478 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_30_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,478 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_30_pitch_up.wav': System error.
+2025-11-05 11:51:12,478 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_30_pitch_down.wav': System error.
+2025-11-05 11:51:12,530 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_31_original.wav': System error.
+2025-11-05 11:51:12,530 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_31_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,530 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_31_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,530 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_31_pitch_up.wav': System error.
+2025-11-05 11:51:12,530 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_31_pitch_down.wav': System error.
+2025-11-05 11:51:12,590 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_32_original.wav': System error.
+2025-11-05 11:51:12,591 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_32_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,591 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_32_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,591 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_32_pitch_up.wav': System error.
+2025-11-05 11:51:12,591 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_32_pitch_down.wav': System error.
+2025-11-05 11:51:12,633 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_33_original.wav': System error.
+2025-11-05 11:51:12,633 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_33_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,633 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_33_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,633 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_33_pitch_up.wav': System error.
+2025-11-05 11:51:12,633 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_33_pitch_down.wav': System error.
+2025-11-05 11:51:12,677 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_34_original.wav': System error.
+2025-11-05 11:51:12,677 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_34_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,678 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_34_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,678 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_34_pitch_up.wav': System error.
+2025-11-05 11:51:12,678 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_34_pitch_down.wav': System error.
+2025-11-05 11:51:12,724 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_35_original.wav': System error.
+2025-11-05 11:51:12,724 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_35_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,724 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_35_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,724 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_35_pitch_up.wav': System error.
+2025-11-05 11:51:12,724 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_35_pitch_down.wav': System error.
+2025-11-05 11:51:12,764 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_36_original.wav': System error.
+2025-11-05 11:51:12,764 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_36_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,764 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_36_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,764 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_36_pitch_up.wav': System error.
+2025-11-05 11:51:12,764 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_36_pitch_down.wav': System error.
+2025-11-05 11:51:12,825 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_37_original.wav': System error.
+2025-11-05 11:51:12,825 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_37_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,825 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_37_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,825 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_37_pitch_up.wav': System error.
+2025-11-05 11:51:12,825 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_37_pitch_down.wav': System error.
+2025-11-05 11:51:12,877 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_38_original.wav': System error.
+2025-11-05 11:51:12,877 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_38_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,877 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_38_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,877 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_38_pitch_up.wav': System error.
+2025-11-05 11:51:12,877 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_38_pitch_down.wav': System error.
+2025-11-05 11:51:12,923 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_39_original.wav': System error.
+2025-11-05 11:51:12,923 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_39_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,923 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_39_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,923 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_39_pitch_up.wav': System error.
+2025-11-05 11:51:12,923 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_39_pitch_down.wav': System error.
+2025-11-05 11:51:12,979 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_4_original.wav': System error.
+2025-11-05 11:51:12,980 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_4_time_stretch_slow.wav': System error.
+2025-11-05 11:51:12,980 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_4_time_stretch_fast.wav': System error.
+2025-11-05 11:51:12,980 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_4_pitch_up.wav': System error.
+2025-11-05 11:51:12,980 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_4_pitch_down.wav': System error.
+2025-11-05 11:51:13,028 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_40_original.wav': System error.
+2025-11-05 11:51:13,028 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_40_time_stretch_slow.wav': System error.
+2025-11-05 11:51:13,028 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_40_time_stretch_fast.wav': System error.
+2025-11-05 11:51:13,028 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_40_pitch_up.wav': System error.
+2025-11-05 11:51:13,028 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_40_pitch_down.wav': System error.
+2025-11-05 11:51:13,099 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_5_original.wav': System error.
+2025-11-05 11:51:13,099 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_5_time_stretch_slow.wav': System error.
+2025-11-05 11:51:13,099 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_5_time_stretch_fast.wav': System error.
+2025-11-05 11:51:13,099 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_5_pitch_up.wav': System error.
+2025-11-05 11:51:13,099 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_5_pitch_down.wav': System error.
+2025-11-05 11:51:13,159 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_6_original.wav': System error.
+2025-11-05 11:51:13,159 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_6_time_stretch_slow.wav': System error.
+2025-11-05 11:51:13,159 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_6_time_stretch_fast.wav': System error.
+2025-11-05 11:51:13,159 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_6_pitch_up.wav': System error.
+2025-11-05 11:51:13,159 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_6_pitch_down.wav': System error.
+2025-11-05 11:51:13,223 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_7_original.wav': System error.
+2025-11-05 11:51:13,223 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_7_time_stretch_slow.wav': System error.
+2025-11-05 11:51:13,223 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_7_time_stretch_fast.wav': System error.
+2025-11-05 11:51:13,223 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_7_pitch_up.wav': System error.
+2025-11-05 11:51:13,223 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_7_pitch_down.wav': System error.
+2025-11-05 11:51:13,308 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_8_original.wav': System error.
+2025-11-05 11:51:13,308 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_8_time_stretch_slow.wav': System error.
+2025-11-05 11:51:13,308 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_8_time_stretch_fast.wav': System error.
+2025-11-05 11:51:13,308 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_8_pitch_up.wav': System error.
+2025-11-05 11:51:13,308 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_8_pitch_down.wav': System error.
+2025-11-05 11:51:13,355 - WARNING - Failed to save augmentation original: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_9_original.wav': System error.
+2025-11-05 11:51:13,355 - WARNING - Failed to save augmentation time_stretch_slow: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_9_time_stretch_slow.wav': System error.
+2025-11-05 11:51:13,355 - WARNING - Failed to save augmentation time_stretch_fast: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_9_time_stretch_fast.wav': System error.
+2025-11-05 11:51:13,355 - WARNING - Failed to save augmentation pitch_up: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_9_pitch_up.wav': System error.
+2025-11-05 11:51:13,356 - WARNING - Failed to save augmentation pitch_down: Error opening '/Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented/legitimate_9_pitch_down.wav': System error.
+2025-11-05 11:51:13,356 - INFO - Augmentation complete!
+2025-11-05 11:51:13,356 - INFO - Original files: 80
+2025-11-05 11:51:13,356 - INFO - Augmented files generated: 0
+2025-11-05 11:51:13,356 - INFO - Output directory: /Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented
+2025-11-05 11:53:51,776 - INFO - Augmentation complete!
+2025-11-05 11:53:51,776 - INFO - Original files: 80
+2025-11-05 11:53:51,776 - INFO - Augmented files generated: 400
+2025-11-05 11:53:51,776 - INFO - Output directory: /Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/augmented
+2025-11-05 11:55:12,063 - INFO - Extracted features from 400 samples
+2025-11-05 11:55:12,063 - INFO - Total features: 46
+2025-11-05 11:55:12,076 - INFO - Saved augmented features to /Users/suyashsuryavansh/My_Files/academic/scam_call_detection/data/processed/features_augmented.csv
+2025-11-05 11:55:12,076 - INFO - Shape: (400, 48)
+2025-11-05 13:19:53,388 - INFO - DNN model created
+2025-11-05 13:19:53,389 - INFO - Features scaled: mean=0.0000, std=0.9780
+2025-11-05 13:20:01,272 - INFO - Training complete. Final validation accuracy: 0.8625
+2025-11-05 13:20:01,272 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-11-05 13:20:01,295 - INFO - DNN model saved to /Users/suyashsuryavansh/My_Files/academic/scam_call_detection/models/dnn_model.h5
+2025-11-05 13:20:01,296 - INFO - DNN scaler saved to /Users/suyashsuryavansh/My_Files/academic/scam_call_detection/models/dnn_scaler.pkl
+2025-11-05 13:34:12,453 - INFO - XGBoost model initialized
+2025-11-05 13:34:12,621 - INFO - XGBoost model trained
+2025-11-05 13:34:13,344 - INFO - Cross-validation complete: 0.8459
+2025-11-05 13:34:13,348 - INFO - XGBoost model saved to /Users/suyashsuryavansh/My_Files/academic/scam_call_detection/models/xgboost_model.json
+2025-11-05 22:55:51,617 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-05 22:55:51,620 - INFO - DNN model loaded
+2025-11-05 22:55:51,644 - INFO - XGBoost model loaded
+2025-11-05 22:59:55,654 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-05 22:59:55,657 - INFO - DNN model loaded
+2025-11-05 22:59:55,669 - INFO - XGBoost model loaded
+2025-11-05 22:59:55,881 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-05 23:02:38,904 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-05 23:02:38,908 - INFO - DNN model loaded
+2025-11-05 23:02:38,924 - INFO - XGBoost model loaded
+2025-11-05 23:02:39,135 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-05 23:10:32,813 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-05 23:10:32,816 - INFO - DNN model loaded
+2025-11-05 23:10:32,832 - INFO - XGBoost model loaded
+2025-11-05 23:10:33,044 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-05 23:10:33,061 - INFO - Saved evaluation metrics to /Users/suyashsuryavansh/My_Files/academic/scam_call_detection/results/metrics.csv
+2025-11-05 23:10:33,061 - INFO - Shape: (3, 5)
+2025-11-05 23:10:34,209 - INFO - ROC curves saved
+2025-11-05 23:10:34,473 - INFO - Confusion matrices saved
+2025-11-06 09:49:22,769 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-06 09:49:27,486 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.8.216:5001
+2025-11-06 09:49:27,486 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-06 09:49:27,488 - INFO -  * Restarting with stat
+2025-11-06 09:49:31,793 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-06 09:49:31,820 - WARNING -  * Debugger is active!
+2025-11-06 09:49:31,841 - INFO -  * Debugger PIN: 500-415-507
+2025-11-06 09:51:10,687 - INFO - 127.0.0.1 - - [06/Nov/2025 09:51:10] "GET / HTTP/1.1" 200 -
+2025-11-06 09:51:11,134 - INFO - 127.0.0.1 - - [06/Nov/2025 09:51:11] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-06 09:51:11,135 - INFO - 127.0.0.1 - - [06/Nov/2025 09:51:11] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-11-06 09:51:11,372 - INFO - 127.0.0.1 - - [06/Nov/2025 09:51:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-06 10:20:02,050 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-06 10:20:02,127 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.8.216:5001
+2025-11-06 10:20:02,127 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-06 10:20:02,128 - INFO -  * Restarting with stat
+2025-11-06 10:20:07,084 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-06 10:20:07,109 - WARNING -  * Debugger is active!
+2025-11-06 10:20:07,134 - INFO -  * Debugger PIN: 500-415-507
+2025-11-06 10:20:13,676 - INFO - 127.0.0.1 - - [06/Nov/2025 10:20:13] "GET / HTTP/1.1" 200 -
+2025-11-06 10:20:13,709 - INFO - 127.0.0.1 - - [06/Nov/2025 10:20:13] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-06 10:20:13,709 - INFO - 127.0.0.1 - - [06/Nov/2025 10:20:13] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-11-06 10:20:13,723 - INFO - 127.0.0.1 - - [06/Nov/2025 10:20:13] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:20:23,730 - INFO - 127.0.0.1 - - [06/Nov/2025 10:20:23] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:20:33,729 - INFO - 127.0.0.1 - - [06/Nov/2025 10:20:33] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:20:43,735 - INFO - 127.0.0.1 - - [06/Nov/2025 10:20:43] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:20:53,732 - INFO - 127.0.0.1 - - [06/Nov/2025 10:20:53] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:21:03,737 - INFO - 127.0.0.1 - - [06/Nov/2025 10:21:03] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:21:13,826 - INFO - 127.0.0.1 - - [06/Nov/2025 10:21:13] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:21:23,827 - INFO - 127.0.0.1 - - [06/Nov/2025 10:21:23] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:21:33,824 - INFO - 127.0.0.1 - - [06/Nov/2025 10:21:33] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:21:43,826 - INFO - 127.0.0.1 - - [06/Nov/2025 10:21:43] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:21:53,826 - INFO - 127.0.0.1 - - [06/Nov/2025 10:21:53] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:22:03,831 - INFO - 127.0.0.1 - - [06/Nov/2025 10:22:03] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:22:13,825 - INFO - 127.0.0.1 - - [06/Nov/2025 10:22:13] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:22:23,824 - INFO - 127.0.0.1 - - [06/Nov/2025 10:22:23] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:22:33,825 - INFO - 127.0.0.1 - - [06/Nov/2025 10:22:33] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:22:43,822 - INFO - 127.0.0.1 - - [06/Nov/2025 10:22:43] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:22:53,828 - INFO - 127.0.0.1 - - [06/Nov/2025 10:22:53] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:23:03,829 - INFO - 127.0.0.1 - - [06/Nov/2025 10:23:03] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:23:13,825 - INFO - 127.0.0.1 - - [06/Nov/2025 10:23:13] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:23:23,926 - INFO - 127.0.0.1 - - [06/Nov/2025 10:23:23] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:23:34,545 - INFO - 127.0.0.1 - - [06/Nov/2025 10:23:34] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:23:44,555 - INFO - 127.0.0.1 - - [06/Nov/2025 10:23:44] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:23:54,553 - INFO - 127.0.0.1 - - [06/Nov/2025 10:23:54] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:24:04,548 - INFO - 127.0.0.1 - - [06/Nov/2025 10:24:04] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:24:14,552 - INFO - 127.0.0.1 - - [06/Nov/2025 10:24:14] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:24:24,612 - INFO - 127.0.0.1 - - [06/Nov/2025 10:24:24] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:25:05,667 - INFO - 127.0.0.1 - - [06/Nov/2025 10:25:05] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:25:15,682 - INFO - 127.0.0.1 - - [06/Nov/2025 10:25:15] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:25:25,735 - INFO - 127.0.0.1 - - [06/Nov/2025 10:25:25] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:25:42,452 - INFO - 127.0.0.1 - - [06/Nov/2025 10:25:42] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:25:52,568 - INFO - 127.0.0.1 - - [06/Nov/2025 10:25:52] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:27:04,702 - INFO - 127.0.0.1 - - [06/Nov/2025 10:27:04] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 10:27:14,793 - INFO - 127.0.0.1 - - [06/Nov/2025 10:27:14] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:27:59,429 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-06 11:27:59,488 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.8.216:5001
+2025-11-06 11:27:59,488 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-06 11:28:04,508 - INFO - 127.0.0.1 - - [06/Nov/2025 11:28:04] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:28:05,361 - INFO - 127.0.0.1 - - [06/Nov/2025 11:28:05] "GET / HTTP/1.1" 200 -
+2025-11-06 11:28:05,394 - INFO - 127.0.0.1 - - [06/Nov/2025 11:28:05] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-11-06 11:28:05,398 - INFO - 127.0.0.1 - - [06/Nov/2025 11:28:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-06 11:28:05,408 - INFO - 127.0.0.1 - - [06/Nov/2025 11:28:05] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:28:15,410 - INFO - 127.0.0.1 - - [06/Nov/2025 11:28:15] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:28:25,414 - INFO - 127.0.0.1 - - [06/Nov/2025 11:28:25] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:28:35,414 - INFO - 127.0.0.1 - - [06/Nov/2025 11:28:35] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:28:45,415 - INFO - 127.0.0.1 - - [06/Nov/2025 11:28:45] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:28:55,412 - INFO - 127.0.0.1 - - [06/Nov/2025 11:28:55] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:29:05,412 - INFO - 127.0.0.1 - - [06/Nov/2025 11:29:05] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:29:15,425 - INFO - 127.0.0.1 - - [06/Nov/2025 11:29:15] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:29:25,413 - INFO - 127.0.0.1 - - [06/Nov/2025 11:29:25] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:29:35,414 - INFO - 127.0.0.1 - - [06/Nov/2025 11:29:35] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:29:45,423 - INFO - 127.0.0.1 - - [06/Nov/2025 11:29:45] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:29:55,518 - INFO - 127.0.0.1 - - [06/Nov/2025 11:29:55] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:30:13,796 - INFO - 127.0.0.1 - - [06/Nov/2025 11:30:13] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:30:23,910 - INFO - 127.0.0.1 - - [06/Nov/2025 11:30:23] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:30:33,931 - INFO - 127.0.0.1 - - [06/Nov/2025 11:30:33] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:32:51,522 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-06 11:32:51,588 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.8.216:5001
+2025-11-06 11:32:51,588 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-06 11:32:53,017 - INFO - 127.0.0.1 - - [06/Nov/2025 11:32:53] "GET /api/health HTTP/1.1" 200 -
+2025-11-06 11:32:58,804 - INFO - 127.0.0.1 - - [06/Nov/2025 11:32:58] "GET / HTTP/1.1" 200 -
+2025-11-06 11:32:58,855 - INFO - 127.0.0.1 - - [06/Nov/2025 11:32:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-06 11:32:58,855 - INFO - 127.0.0.1 - - [06/Nov/2025 11:32:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-11-06 11:32:58,871 - INFO - 127.0.0.1 - - [06/Nov/2025 11:32:58] "GET /api/health HTTP/1.1" 200 -
+2025-11-07 10:04:52,680 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-07 10:04:52,804 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.8.216:5001
+2025-11-07 10:04:52,804 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 10:04:57,436 - INFO - 127.0.0.1 - - [07/Nov/2025 10:04:57] "GET / HTTP/1.1" 200 -
+2025-11-07 10:04:57,847 - INFO - 127.0.0.1 - - [07/Nov/2025 10:04:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-07 10:04:57,847 - INFO - 127.0.0.1 - - [07/Nov/2025 10:04:57] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-11-07 10:04:57,866 - INFO - 127.0.0.1 - - [07/Nov/2025 10:04:57] "GET /api/health HTTP/1.1" 200 -
+2025-11-07 10:05:55,951 - INFO - 127.0.0.1 - - [07/Nov/2025 10:05:55] "GET / HTTP/1.1" 200 -
+2025-11-07 10:05:55,967 - INFO - 127.0.0.1 - - [07/Nov/2025 10:05:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-07 10:05:55,970 - INFO - 127.0.0.1 - - [07/Nov/2025 10:05:55] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-11-07 10:05:55,985 - INFO - 127.0.0.1 - - [07/Nov/2025 10:05:55] "GET /api/health HTTP/1.1" 200 -
+2025-11-07 10:11:11,427 - INFO - 127.0.0.1 - - [07/Nov/2025 10:11:11] "GET / HTTP/1.1" 200 -
+2025-11-07 10:11:11,443 - INFO - 127.0.0.1 - - [07/Nov/2025 10:11:11] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-07 10:11:11,444 - INFO - 127.0.0.1 - - [07/Nov/2025 10:11:11] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-11-07 10:11:11,454 - INFO - 127.0.0.1 - - [07/Nov/2025 10:11:11] "GET /api/health HTTP/1.1" 200 -
+2025-11-07 10:18:13,508 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-07 10:18:13,634 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.8.216:5001
+2025-11-07 10:18:13,634 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 10:18:21,926 - INFO - 127.0.0.1 - - [07/Nov/2025 10:18:21] "GET / HTTP/1.1" 200 -
+2025-11-07 10:18:35,008 - INFO - 127.0.0.1 - - [07/Nov/2025 10:18:35] "[31m[1mPOST /api/predict HTTP/1.1[0m" 400 -
+2025-11-07 10:29:58,116 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-07 10:29:58,178 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.8.216:5001
+2025-11-07 10:29:58,178 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 10:30:06,336 - INFO - 127.0.0.1 - - [07/Nov/2025 10:30:06] "GET / HTTP/1.1" 200 -
+2025-11-07 10:30:16,267 - INFO - 127.0.0.1 - - [07/Nov/2025 10:30:16] "[35m[1mPOST /api/predict HTTP/1.1[0m" 500 -
+2025-11-07 10:39:52,120 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-07 10:39:52,179 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.8.216:5001
+2025-11-07 10:39:52,179 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 10:39:55,199 - INFO - 127.0.0.1 - - [07/Nov/2025 10:39:55] "GET / HTTP/1.1" 200 -
+2025-11-07 10:40:01,940 - INFO - 127.0.0.1 - - [07/Nov/2025 10:40:01] "[35m[1mPOST /api/predict HTTP/1.1[0m" 500 -
+2025-11-07 11:00:57,004 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-07 11:00:57,158 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.8.216:5001
+2025-11-07 11:00:57,158 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 11:01:05,602 - INFO - 127.0.0.1 - - [07/Nov/2025 11:01:05] "GET / HTTP/1.1" 200 -
+2025-11-07 11:01:13,381 - INFO - 127.0.0.1 - - [07/Nov/2025 11:01:13] "[35m[1mPOST /api/predict HTTP/1.1[0m" 500 -
+2025-11-07 11:06:10,055 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-07 11:06:10,146 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.8.216:5001
+2025-11-07 11:06:10,146 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 11:06:14,643 - INFO - 127.0.0.1 - - [07/Nov/2025 11:06:14] "GET / HTTP/1.1" 200 -
+2025-11-07 11:06:19,958 - INFO - 127.0.0.1 - - [07/Nov/2025 11:06:19] "[35m[1mPOST /api/predict HTTP/1.1[0m" 500 -
+2025-11-07 11:09:10,924 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-07 11:09:10,992 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.8.216:5001
+2025-11-07 11:09:10,992 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-07 11:09:13,786 - INFO - 127.0.0.1 - - [07/Nov/2025 11:09:13] "GET / HTTP/1.1" 200 -
+2025-11-07 11:09:18,922 - INFO - 127.0.0.1 - - [07/Nov/2025 11:09:18] "[35m[1mPOST /api/predict HTTP/1.1[0m" 500 -
+2025-11-14 10:06:33,621 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.2.195:5001
+2025-11-14 10:06:33,621 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-14 10:12:11,597 - INFO - Dataset exploration complete: 40 phishing, 40 legitimate
+2025-11-14 10:13:06,741 - INFO - Augmentation complete!
+2025-11-14 10:13:06,741 - INFO - Original files: 80
+2025-11-14 10:13:06,741 - INFO - Augmented files generated: 400
+2025-11-14 10:13:06,741 - INFO - Output directory: /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/data/augmented
+2025-11-14 10:14:00,641 - ERROR - Train/test features not found. Please run feature extraction first.
+2025-11-14 10:14:51,868 - INFO - Found 40 original phishing files
+2025-11-14 10:14:51,868 - INFO - Found 40 original legitimate files
+2025-11-14 10:14:51,870 - INFO - Train split: 64 files, Test split: 16 files
+2025-11-14 10:15:11,170 - INFO - Training samples (with augmentation): 320
+2025-11-14 10:15:11,170 - INFO - Test samples (original only): 16
+2025-11-14 10:15:11,170 - INFO - Total features: 39
+2025-11-14 10:15:11,182 - INFO - Saved training features to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/data/processed/train_features.csv
+2025-11-14 10:15:11,182 - INFO - Shape: (320, 41)
+2025-11-14 10:15:11,186 - INFO - Saved test features to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/data/processed/test_features.csv
+2025-11-14 10:15:11,186 - INFO - Shape: (16, 41)
+2025-11-14 10:15:22,329 - WARNING - At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+2025-11-14 10:15:22,343 - WARNING - There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+2025-11-14 10:15:22,352 - INFO - DNN model created
+2025-11-14 10:15:22,353 - INFO - Features scaled: mean=-0.0000, std=1.0000
+2025-11-14 10:15:42,120 - INFO - Training complete. Final validation accuracy: 0.3906
+2025-11-14 10:15:42,416 - INFO - DNN Test Accuracy: 0.3125
+2025-11-14 10:15:42,467 - INFO - DNN model saved to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/models/dnn_model.h5
+2025-11-14 10:15:42,468 - INFO - DNN scaler saved to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/models/dnn_scaler.pkl
+2025-11-14 10:16:43,133 - INFO - XGBoost model initialized
+2025-11-14 10:16:43,224 - INFO - XGBoost model trained
+2025-11-14 10:16:43,565 - INFO - Cross-validation complete: 0.6660
+2025-11-14 10:16:43,567 - INFO - XGBoost Test Accuracy: 0.5000
+2025-11-14 10:16:43,570 - INFO - XGBoost model saved to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/models/xgboost_model.json
+2025-11-14 10:24:10,875 - INFO - DNN model loaded
+2025-11-14 10:24:10,888 - INFO - XGBoost model loaded
+2025-11-14 10:24:11,451 - INFO - Saved evaluation metrics to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/results/metrics.csv
+2025-11-14 10:24:11,451 - INFO - Shape: (3, 5)
+2025-11-14 10:24:12,411 - INFO - ROC curves saved
+2025-11-14 10:24:12,726 - INFO - Confusion matrices saved
+2025-11-14 10:29:20,450 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.2.195:5001
+2025-11-14 10:29:20,451 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-14 10:29:28,250 - INFO - 127.0.0.1 - - [14/Nov/2025 10:29:28] "GET / HTTP/1.1" 200 -
+2025-11-14 10:29:28,736 - INFO - 127.0.0.1 - - [14/Nov/2025 10:29:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-14 11:58:39,857 - INFO - Random Forest model initialized
+2025-11-14 11:58:40,546 - INFO - Random Forest model trained
+2025-11-14 11:58:41,359 - INFO - Cross-validation complete: 0.6950
+2025-11-14 11:58:41,389 - INFO - Random Forest Test Accuracy: 0.5625
+2025-11-14 11:58:41,393 - INFO - Random Forest model saved to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/models/random_forest.pkl
+2025-11-14 12:01:31,360 - INFO - LightGBM model initialized
+2025-11-14 12:01:31,474 - INFO - LightGBM model trained
+2025-11-14 12:01:31,951 - INFO - Cross-validation complete: 0.6803
+2025-11-14 12:01:31,954 - INFO - LightGBM Test Accuracy: 0.5625
+2025-11-14 12:01:31,955 - INFO - LightGBM model saved to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/models/lightgbm.pkl
+2025-11-14 12:02:22,060 - INFO - DNN model loaded
+2025-11-14 12:02:22,074 - INFO - XGBoost model loaded
+2025-11-14 12:02:22,327 - INFO - Random Forest model loaded
+2025-11-14 12:02:22,358 - INFO - LightGBM model loaded
+2025-11-14 12:02:22,637 - INFO - Saved evaluation metrics to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/results/metrics.csv
+2025-11-14 12:02:22,637 - INFO - Shape: (5, 5)
+2025-11-14 12:02:23,108 - INFO - ROC curves saved
+2025-11-14 12:02:23,798 - INFO - Confusion matrices saved
+2025-11-14 12:04:17,461 - INFO - DNN model loaded
+2025-11-14 12:04:17,472 - INFO - XGBoost model loaded
+2025-11-14 12:04:17,728 - INFO - Random Forest model loaded
+2025-11-14 12:04:17,757 - INFO - LightGBM model loaded
+2025-11-14 12:04:18,038 - INFO - Saved evaluation metrics to /Users/parth/Documents/semester_7 IIITDWD/AI For Cybersecurity/phishing_scam_detection/results/metrics.csv
+2025-11-14 12:04:18,038 - INFO - Shape: (5, 6)
+2025-11-14 12:04:18,419 - INFO - ROC curves saved
+2025-11-14 12:04:19,106 - INFO - Confusion matrices saved
