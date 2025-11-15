@@ -237,8 +237,6 @@ graph TD
     D --> E[Train-Test Split]
     E --> F1[Train DNN]
     E --> F2[Train XGBoost]
-    E --> F3[Train Random Forest]
-    E --> F4[Train LightGBM]
     F1 --> G[Ensemble Evaluation]
     F2 --> G
     F3 --> G
@@ -276,52 +274,3 @@ graph TD
 
 
 
-### Ensemble Voting
-
-The final prediction is computed as the average probability from all available models:
-
-```
-P(phishing) = mean(P_DNN, P_XGBoost, P_RF, P_LightGBM)
-```
-
-Classification: PHISHING if P(phishing) > 0.5, else LEGITIMATE
-
----
-
-
-## Future Improvements
-
-### 1. Dataset Enhancement
-- Collect more diverse phishing call samples (target 500+ per class)
-- Include various phishing scenarios (IRS scams, tech support, bank fraud)
-- Add calls in multiple languages
-- Include calls with different audio qualities
-
-### 2. Feature Engineering
-- Add speech-to-text features using ASR models
-- Implement Natural Language Processing on transcripts
-- Extract prosodic features (speech rate, pauses, stress patterns)
-- Include speaker diarization features
-
-### 3. Model Improvements
-- Implement Convolutional Neural Networks (CNNs) for spectrogram analysis
-- Use Recurrent Neural Networks (LSTMs/GRUs) for temporal patterns
-- Try transformer-based audio models (Wav2Vec, HuBERT)
-- Implement stacking ensemble instead of simple voting
-- Use cross-validated hyperparameter tuning (GridSearchCV)
-
-### 4. Production Readiness
-- Add authentication and rate limiting to API
-- Implement model versioning and A/B testing
-- Add monitoring and alerting for model drift
-- Deploy using Docker containers
-- Set up CI/CD pipeline
-- Add real-time audio streaming support
-
-### 5. User Experience
-- Build mobile application for on-device detection
-- Add browser extension for VoIP call analysis
-- Implement batch processing for call centers
-- Create dashboard for call pattern analytics
-
----
